@@ -1,0 +1,22 @@
+.container{
+margin: 0 auto;
+text-align: center;
+width: 250px;
+padding: 20px;
+border: 1px solid black;
+}
+
+.inputs{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.result{
+  margin-top: 20px;
+  font-size: 22px;
+}
+
+input{
+  width: 80px;
+}
