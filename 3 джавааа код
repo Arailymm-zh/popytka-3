@@ -1,0 +1,12 @@
+window.addEventListener("DOMContentLoaded", function () {
+  const inputOne = document.querySelector('.input-one');
+  const inputTwo = document.querySelector('.input-two');
+  const result = document.querySelector('.result');
+  const button = document.querySelector('.btn');
+
+	button.addEventListener('click', () => {
+    let a = +inputOne.value;
+    let n = +inputTwo.value;
+  	result.textContent = Math.pow(a,n);
+  })
+})
